@@ -36,8 +36,8 @@ const projects = [
   {
     img: PortFolio,
     name: "PortFolio",
-    demo: "https://dev-folio-793.vercel.app",
-    code: "https://github.com/dhawal-793/DevFolio",
+    demo: "https://kaleidoscopic-clafoutis-c358b9.netlify.app/",
+    code: "https://github.com/Goutham-003/Portfolio",
     description:
       "My Personal portfolio built with React Js, Tailwind CSS and Vite Js",
     style: {
