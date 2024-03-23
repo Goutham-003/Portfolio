@@ -1,3 +1,4 @@
+import { SiLeetcode } from "react-icons/si";
 function LinkedIn() {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="20" height="20" >
@@ -234,7 +235,9 @@ function Cancel({ color }) {
         </svg>
     )
 }
-
+function LeetCode(){
+    return <SiLeetcode />
+}
 
 export default LinkedIn;
-export { GMail, GitHub, Telegram, Person, Discord, Twitter, Resume, Portfolio, Map, CopyRight, Code, Link, Chat, Submit, ArrowRightLong, ArrowDown, ArrowUp, Download, Hamburger, Menu, Cancel };
+export { GMail, GitHub, Telegram, Person, Discord, Twitter, Resume, Portfolio, Map, CopyRight, Code, Link, Chat, Submit, ArrowRightLong, ArrowDown, ArrowUp, Download, Hamburger, Menu, Cancel,LeetCode };
