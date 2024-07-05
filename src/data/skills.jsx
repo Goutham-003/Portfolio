@@ -37,6 +37,56 @@ import ReactJs, {
 
 const skills = [
   {
+    id: 7,
+    icon: <ReactJs />,
+    name: "React",
+    style: {
+      shadow: "shadow-[#61DAFB]",
+      cover: "from-black to-[#61DAFB] rounded-b-md",
+      opacity: "opacity-80",
+    },
+  },
+  {
+    id: 6,
+    icon: <ExpressJS />,
+    name: "Express Js",
+    style: {
+      shadow: "shadow-[#444444]",
+      cover: "from-black to-[#444444] rounded-b-md",
+      opacity: "opacity-80",
+    },
+  },
+  {
+    id: 8,
+    icon: <NodeJS />,
+    name: "Node Js",
+    style: {
+      shadow: "shadow-[#83CD27]",
+      cover: "from-black to-[#83CD27] rounded-b-md",
+      opacity: "opacity-80",
+    },
+  },
+  {
+    id: 14,
+    icon: <MySQL />,
+    name: "MySQL",
+    style: {
+      shadow: "shadow-[#00618A]",
+      cover: "from-black to-[#00618A] rounded-b-md",
+      opacity: "opacity-80",
+    },
+  },
+  {
+    id: 5,
+    icon: <MongoDB />,
+    name: "MongoDB",
+    style: {
+      shadow: "shadow-[#4FAA41]",
+      cover: "from-black to-[#4FAA41] rounded-b-md",
+      opacity: "opacity-80",
+    },
+  },
+  {
     id: 1,
     icon: <HTML />,
     name: "HTML",
@@ -66,49 +116,8 @@ const skills = [
       opacity: "opacity-80",
     },
   },
-  {
-    id: 5,
-    icon: <MongoDB />,
-    name: "MongoDB",
-    style: {
-      shadow: "shadow-[#4FAA41]",
-      cover: "from-black to-[#4FAA41] rounded-b-md",
-      opacity: "opacity-80",
-    },
-  },
-  {
-    id: 6,
-    icon: <ExpressJS />,
-    name: "Express Js",
-    style: {
-      shadow: "shadow-[#444444]",
-      cover: "from-black to-[#444444] rounded-b-md",
-      opacity: "opacity-80",
-    },
-  },
-
-  {
-    id: 7,
-    icon: <ReactJs />,
-    name: "React",
-    style: {
-      shadow: "shadow-[#61DAFB]",
-      cover: "from-black to-[#61DAFB] rounded-b-md",
-      opacity: "opacity-80",
-    },
-  },
-
-  {
-    id: 8,
-
-    icon: <NodeJS />,
-    name: "Node Js",
-    style: {
-      shadow: "shadow-[#83CD27]",
-      cover: "from-black to-[#83CD27] rounded-b-md",
-      opacity: "opacity-80",
-    },
-  },
+  
+  
   {
     id: 10,
     icon: <TailwindCSS />,
@@ -119,26 +128,7 @@ const skills = [
       opacity: "opacity-80",
     },
   },
-  {
-    id: 11,
-    icon: <Bootstrap />,
-    name: "Bootstrap",
-    style: {
-      shadow: "shadow-[#6610F2]",
-      cover: "from-black to-[#6610F2] rounded-b-md",
-      opacity: "opacity-80",
-    },
-  },
-  {
-    id: 14,
-    icon: <MySQL />,
-    name: "MySQL",
-    style: {
-      shadow: "shadow-[#00618A]",
-      cover: "from-black to-[#00618A] rounded-b-md",
-      opacity: "opacity-80",
-    },
-  },
+  
   {
     id: 16,
     icon: <Git />,
@@ -208,16 +198,6 @@ const skills = [
       cover: "from-black to-[#1D95E5] rounded-b-md",
       opacity: "opacity-80",
     },
-  },
-  {
-    id: 26,
-    icon: <Bash />,
-    name: "Bash",
-    style: {
-      shadow: "shadow-[#4dbc85]",
-      cover: "from-black to-[#4dbc85] rounded-b-md",
-      opacity: "opacity-80",
-    },
-  },
+  }
 ];
 export default skills;

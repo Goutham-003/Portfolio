@@ -3,10 +3,21 @@ import Climate_App from "../assets/Projects/climate_app.png";
 import user_auth from "../assets/Projects/user_auth.png";
 import GameMaster from "../assets/Projects/GameMaster.png";
 import PortFolio from "../assets/Projects/portfolio.png";
-import SIMON_GAME from "../assets/Projects/SIMON_GAME.png";
-import TODO_APP from "../assets/Projects/TODO_APP.png";
-
+import ewasteeasy from "../assets/Projects/ewasteeasy.png";
 const projects = [
+  {
+    img: ewasteeasy,
+    name: "E-Waste Easy",
+    demo: "",
+    code: "https://github.com/Goutham-003/ewasteeasy",
+    description:
+      "Built an E-waste recycling app using ReactJS, Tailwind CSS, NodeJS, Express JS, MongoDB to help people dispose of E-Waste responsibly. Users sign up & schedule pickups. They earn points for recycling, generated through web scraping.",
+    style: {
+      shadow: "shadow-[#3498AB]",
+      cover: "from-[#71BC68]",
+      display: " hidden group-hover:flex",
+    },
+  },
   {
     img: GameMaster,
     name: "GameMaster",
